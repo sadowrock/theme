@@ -26,6 +26,9 @@
         <span class="language-switcher-separator">|</span>
         <a class="language-switcher-item" href="#">VN</a>
     </div>
+    <div class="left-auth-botton">
+        <a href="#"></a>
+    </div>
     <div class="right-auth-botton">
         <a href="#"></a>
     </div>

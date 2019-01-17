@@ -313,7 +313,7 @@
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 1024px) and (max-width: 1366px) {
+@media (min-width: 1024px) and (max-width: 1366px)  {
   #header {
     .top-left-icon {
       margin-left: 20px;
@@ -386,3 +386,174 @@
   }
 
 }
+
+  @media (min-width: 1075px) and (max-width: 1440px) {
+    #header {
+      .top-left-icon {
+        background: url("/image/header/theme_icon_1.png") no-repeat;
+        background-size: 40px 40px;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        margin-left: 20px;
+        clear: both;
+        display: block;
+        text-decoration: none;
+        float: left;
+      }
+
+      .top-image {
+        display: block;
+        background: url("/image/header/theme_line.png") center left no-repeat;
+        background-size: 842px;
+        margin-left: 70px;
+        width: 842px;
+        height: 40px;
+      }
+
+      .right-language-switcher {
+        padding: 0;
+        padding-top: 5px;
+        padding-left: 30px;
+        height: 30px;
+      }
+      .language-switcher-item, .language-switcher-separator {
+        color: #888;
+        font-size: 22px;
+      }
+      .language-switcher-item {
+        &.language-active {
+          color: #222;
+          font-size: 22px;
+        }
+      }
+      .left-auth-botton {
+        background: url("/image/header/theme_sign_in_button.png") no-repeat;
+        background-size: 150px 40px;
+        width: 150px;
+        height: 40px;
+        margin-left: 10px;
+        display: block;
+      }
+      .right-auth-botton a {
+        background: url("/image/header/theme_sign_up_button.png") no-repeat;
+        background-size: 150px 40px;
+        width: 150px;
+        height: 40px;
+        margin-left: 10px;
+        display: block;
+      }
+    }
+
+    .container {
+      width: 580px;
+      margin: 0;
+      float: left;
+      margin-left: 20px;
+
+      .text-body {
+        width: 100%;
+        font-size: 18px;
+        margin-left: 8em;
+        margin-top: 5em;
+        .top-font {
+          font-size: 36px;
+          font-weight: 600;
+        }
+        a {
+          background: url("/image/header/theme_19.png") no-repeat;
+          background-size: 225px 62px;
+          width: 225px;
+          height: 62px;
+          margin-left: 0px;
+          margin-top: 40px;
+          display: block;
+        }
+      }
+      .bot-font {
+        color: #979797;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 2em;
+      }
+
+      p {
+        font-size: 36px;
+      }
+
+    }
+
+    .container-image {
+      background: url("/image/header/theme_16.png") right no-repeat;
+      width: 576px;
+      background-size: 576px;
+      display: block;
+      height: 522px;
+      margin-left: 850px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .top-footer {
+      width: 648px;
+      height: 810px;
+      background: url("/image/header/theme_18.png") no-repeat;
+      background-size: 648px;
+      position: absolute;
+
+      .image-top-footer {
+        width: 70px;
+        height: 70px;
+        vertical-align: middle;
+        background: url("/image/header/theme_24.png") no-repeat;
+        background-size: 70px;
+        display: block;
+        position: absolute;
+        top: -17px;
+        right: 0;
+      }
+    }
+
+    .footer {
+      width: 100%;
+      padding-left: 720px;
+
+      .bottom-center {
+        padding-right: 10px;
+        padding-left: 10px;
+        .font-top-bottom {
+          font-size: 36px;
+          font-weight: 600;
+          padding-left: 20px;
+          padding-right: 20px;
+
+        }
+        .font-bot-bottom {
+          font-size: 18px;
+          padding-left: 15px;
+          padding-right: 10px;
+        }
+      }
+      .contact-form-bottom {
+        padding-left: 10px;
+        padding-right: 20px;
+        .form-group {
+
+          width: 500px;
+          height: 50px;
+          padding-top: 5px;
+          padding-left: 14px;
+
+        }
+        .bottom-button-center {
+          background: url("/image/header/theme_22.png") no-repeat;
+          background-size: 500px 55px;
+          width: 100%;
+          height: 60px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
